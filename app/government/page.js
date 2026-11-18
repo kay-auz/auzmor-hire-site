@@ -5,7 +5,7 @@ import IntegrationsSection from "../../components/IntegrationsSection";
 import { govIntegrations } from "../../lib/integrations";
 
 export const metadata = {
-  title: "Government ATS with responsible AI",
+  title: "Public-sector hiring, accelerated by AI workflows",
   description: "Auzmor Hire Government: responsible, explainable AI for merit-based public-sector recruiting, your agency's own branded career site, and hire-onboard-train on one suite — cloud, government cloud or on-premise.",
 };
 
@@ -44,7 +44,7 @@ export default function Government() {
         <div className="wrap hero-grid">
           <div>
             <span className="chip"><b>GOVERNMENT</b> Auzmor Hire · Government build</span>
-            <h1>Public-sector hiring with <span className="grad-text">AI you can defend.</span></h1>
+            <h1>Public-sector hiring, <span className="grad-text">accelerated by AI workflows.</span></h1>
             <p className="lede">Fill critical public-service roles faster with explainable, auditable AI and compliance-first workflows — and give your community an application experience worthy of the job.</p>
             <div className="btns">
               <a className="btn btn-primary" href={DEMO}>Book a government demo <ArrowRight size={18} /></a>
