@@ -5,7 +5,11 @@ import { ArrowRight } from "lucide-react";
 
 export const DEMO = "https://auzmor.com/contact/";
 
+// Review markers are hidden on the site. Set SHOW_CONFIRM to true to show the yellow
+// "confirm" tags again next to claims that still need product/legal sign-off.
+const SHOW_CONFIRM = false;
 export function Confirm({ label = "confirm" }) {
+  if (!SHOW_CONFIRM) return null;
   return <span className="confirm" title="Placeholder claim — confirm with product before launch">{label}</span>;
 }
 
